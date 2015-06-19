@@ -2,8 +2,8 @@
     "FileVersion" : 3,
  
     "FriendlyName" : "BLUI",
-    "Version" : 1,
-    "VersionName": "2.5",
+    "Version" : 2,
+    "VersionName": "2.6",
     "EngineVersion" : 1579795,
     "Description" : "Chrome powered HTML UI and HUD for Unreal Engine 4",
     "Category" : "UI",
@@ -17,7 +17,7 @@
             "Name" : "Blu",
             "Type" : "Runtime",
             "LoadingPhase" : "PreDefault",
-			"BlacklistPlatforms" : [ "HTML5", "Android", "iOS"]
+			"WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
         } 
     ]
 }
