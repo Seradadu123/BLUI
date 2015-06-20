@@ -29,6 +29,7 @@ public class Blu : ModuleRules
 			"Slate",
 			"SlateCore",
 			"UMG",
+            "EditorStyle",
 			"Json"
 		});
 

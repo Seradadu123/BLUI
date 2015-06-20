@@ -1,4 +1,5 @@
 #include "BluPrivatePCH.h"
+#include "BluDebuggerMenu.h"
 
 class FBlu : public IBlu
 {
@@ -32,7 +33,11 @@ class FBlu : public IBlu
 		//CefExecuteProcess(BluManager::main_args, BluApp, NULL);
 		CefInitialize(BluManager::main_args, BluManager::settings, BluApp, NULL);
 
+		BluDebuggerMenu menu;
+		menu.init();
+
 		UE_LOG(LogBlu, Log, TEXT(" STATUS: Loaded"));
+
 	}
 
 	virtual void ShutdownModule() override
