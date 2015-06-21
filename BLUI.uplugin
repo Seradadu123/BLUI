@@ -2,7 +2,7 @@
     "FileVersion" : 3,
 
     "FriendlyName" : "BLUI",
-    "Version" : 2,
+    "Version" : 3,
     "VersionName": "2.6",
     "EngineVersion" : 1579795,
     "Description" : "Chrome powered HTML UI and HUD for Unreal Engine 4",
@@ -21,9 +21,9 @@
         },
         {
             "Name" : "BluDebugger",
-            "Type" : "Editor",
-            "LoadingPhase" : "PreDefault",
-      "WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
+            "Type" : "Developer",
+            "LoadingPhase" : "Default",
+            "WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
         }
     ]
 }

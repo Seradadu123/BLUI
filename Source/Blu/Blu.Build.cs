@@ -17,6 +17,12 @@ public class Blu : ModuleRules
 
 	public Blu(TargetInfo Target)
 	{
+
+        if (UEBuildConfiguration.bBuildEditor)
+        {
+            PrivateDependencyModuleNames.Add("BluDebugger");
+        }
+
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 		{
@@ -29,7 +35,6 @@ public class Blu : ModuleRules
 			"Slate",
 			"SlateCore",
 			"UMG",
-            "EditorStyle",
 			"Json"
 		});
 
