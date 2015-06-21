@@ -1,4 +1,4 @@
-#include "BluPrivatePCH.h"
+#include "BluDebuggerPrivatePCH.h"
 #include "BluDebuggerCommands.h"
 
 void BluDebuggerCommands::RegisterCommands()

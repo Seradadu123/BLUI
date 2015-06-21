@@ -1,5 +1,4 @@
-#include "BluPrivatePCH.h"
-
+#include "BluDebuggerPrivatePCH.h"
 #include "BluDebuggerMenu.h"
 #include "BluDebuggerCommands.h"
 
@@ -43,6 +42,6 @@ void BluDebuggerMenu::Add(FToolBarBuilder& builder)
 
 void BluDebuggerMenu::DebuggerButtonClicked()
 {
-	UE_LOG(LogBlu, Warning, TEXT("Button Pressed"))
+	UE_LOG(LogBluDebugger, Warning, TEXT("Button Pressed"))
 }
 

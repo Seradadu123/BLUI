@@ -1,6 +1,6 @@
 {
     "FileVersion" : 3,
- 
+
     "FriendlyName" : "BLUI",
     "Version" : 2,
     "VersionName": "2.6",
@@ -10,7 +10,7 @@
     "CreatedBy" : "Aaron M. Shea",
     "CreatedByURL" : "http://aaronshea.me",
     "CanContainContent" : "true",
- 
+
     "Modules" :
     [
         {
@@ -18,6 +18,12 @@
             "Type" : "Runtime",
             "LoadingPhase" : "PreDefault",
 			"WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
-        } 
+        },
+        {
+            "Name" : "BluDebugger",
+            "Type" : "Editor",
+            "LoadingPhase" : "PreDefault",
+      "WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
+        }
     ]
 }
