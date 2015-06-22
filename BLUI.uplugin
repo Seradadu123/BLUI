@@ -18,6 +18,12 @@
             "Type" : "Runtime",
             "LoadingPhase" : "PreDefault",
 			"WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
+        },
+        {
+            "Name" : "BluDebugger",
+            "Type" : "Developer",
+            "LoadingPhase" : "Default",
+            "WhitelistPlatforms" : [ "Win64", "Mac", "Linux"]
         }
     ]
 }
