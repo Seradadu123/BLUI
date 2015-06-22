@@ -18,11 +18,6 @@ public class Blu : ModuleRules
 	public Blu(TargetInfo Target)
 	{
 
-        if (UEBuildConfiguration.bBuildEditor)
-        {
-            PrivateDependencyModuleNames.Add("BluDebugger");
-        }
-
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 		{
